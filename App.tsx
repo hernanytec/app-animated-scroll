@@ -1,5 +1,8 @@
+import { SafeAreaView } from 'react-native';
 import { Post } from './src/screens/Post';
 
 export default function App() {
-  return <Post/>
+  return <SafeAreaView style={{ flex: 1, backgroundColor: '#000' }}>
+    <Post />
+  </SafeAreaView>
 }
