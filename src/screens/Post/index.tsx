@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { ScrollView, Text, useWindowDimensions, View } from "react-native";
 import { ProgressBar } from "../../components/ProgressBar";
 import { styles } from "./styles";
@@ -17,6 +17,8 @@ type ScrollProps = {
 
 export function Post() {
   const [percentage, setPercentage] = useState(0)
+  const scrollRef = useRef<ScrollView>(null)
+
   const dimensions = useWindowDimensions()
 
   function scrollPercentage({ layoutMeasurement, contentOffset, contentSize }: ScrollProps) {
@@ -26,8 +28,13 @@ export function Post() {
     setPercentage(value < visibleContent ? 0 : value)
   }
 
+  function handleScrollMoveTop() {
+    scrollRef.current?.scrollTo({ x: 0, y: 0, animated: true })
+  }
+
   return <View style={styles.container}>
     <ScrollView
+      ref={scrollRef}
       showsVerticalScrollIndicator={false}
       contentContainerStyle={styles.content}
       onScroll={(e) => scrollPercentage(e.nativeEvent)}
@@ -133,6 +140,6 @@ export function Post() {
       </View>
     </ScrollView>
 
-    <ProgressBar value={percentage} />
+    <ProgressBar value={percentage} onMoveTop={handleScrollMoveTop} />
   </View>
 }

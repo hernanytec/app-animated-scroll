@@ -7,10 +7,11 @@ import { styles } from "./styles";
 
 const TouchableOpacityAnimated = Animated.createAnimatedComponent(TouchableOpacity)
 interface Props {
-  value: number
+  value: number,
+  onMoveTop: () => void
 }
 
-export function ProgressBar({ value }: Props) {
+export function ProgressBar({ value, onMoveTop }: Props) {
   const widthContainer = useSharedValue(200)
 
   const endReached = value >= 95
@@ -30,7 +31,7 @@ export function ProgressBar({ value }: Props) {
   return <Animated.View style={[styles.container, animatedStyle]}>
     {
       endReached ?
-        <TouchableOpacityAnimated entering={BounceIn} exiting={FadeOut}>
+        <TouchableOpacityAnimated entering={BounceIn} exiting={FadeOut} onPress={onMoveTop}>
           <Feather name="arrow-up" size={24} color='#C4C4CC' />
         </TouchableOpacityAnimated>
         :
