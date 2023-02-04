@@ -41,6 +41,28 @@ export function Post() {
           Optio modi odio repellat ipsum voluptas fugiat aspernatur sint nesciunt a debitis repellendus,
           labore voluptatum ea adipisci culpa,
           quas laborum distinctio enim.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio modi odio repellat ipsum voluptas fugiat aspernatur sint nesciunt a debitis repellendus,
+          labore voluptatum ea adipisci culpa,
+          quas laborum distinctio enim.
+        </Text>
+
+        <Text style={styles.text}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio modi odio repellat ipsum voluptas fugiat aspernatur sint nesciunt a debitis repellendus,
+          labore voluptatum ea adipisci culpa,
+          quas laborum distinctio enim.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio modi odio repellat ipsum voluptas fugiat aspernatur sint nesciunt a debitis repellendus,
+          labore voluptatum ea adipisci culpa,
+          quas laborum distinctio enim.
+        </Text>
+
+        <Text style={styles.text}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio modi odio repellat ipsum voluptas fugiat aspernatur sint nesciunt a debitis repellendus,
+          labore voluptatum ea adipisci culpa,
+          quas laborum distinctio enim.
         </Text>
 
         <Text style={styles.text}>
@@ -61,6 +83,27 @@ export function Post() {
           labore voluptatum ea adipisci culpa,
           quas laborum distinctio enim.
 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio modi odio repellat ipsum voluptas fugiat aspernatur sint nesciunt a debitis repellendus,
+          labore voluptatum ea adipisci culpa,
+          quas laborum distinctio enim.
+
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio modi odio repellat ipsum voluptas fugiat aspernatur sint nesciunt a debitis repellendus,
+          labore voluptatum ea adipisci culpa,
+          quas laborum distinctio enim.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio modi odio repellat ipsum voluptas fugiat aspernatur sint nesciunt a debitis repellendus,
+          labore voluptatum ea adipisci culpa,
+          quas laborum distinctio enim.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio modi odio repellat ipsum voluptas fugiat aspernatur sint nesciunt a debitis repellendus,
+          labore voluptatum ea adipisci culpa,
+          quas laborum distinctio enim.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio modi odio repellat ipsum voluptas fugiat aspernatur sint nesciunt a debitis repellendus,
+          labore voluptatum ea adipisci culpa,
+          quas laborum distinctio enim.
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Optio modi odio repellat ipsum voluptas fugiat aspernatur sint nesciunt a debitis repellendus,
           labore voluptatum ea adipisci culpa,
