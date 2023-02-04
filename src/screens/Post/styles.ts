@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
     marginVertical: 22
   },
   content: {
-    paddingTop: 100,
-    paddingHorizontal: 32,
+    padding: 32,
+    paddingBottom: 64
   }
 })
